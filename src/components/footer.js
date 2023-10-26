@@ -2,10 +2,10 @@ import * as React from "react";
 import Layout from "./layout";
 import "../styles/styles.scss";
 import "../styles/mobile.scss";
-import Resume from "../images/Taylor-Dunworth-Resume.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCodepen, faGithubAlt, faLinkedinIn, faDribbble } from '@fortawesome/free-brands-svg-icons';
 import { scroller } from 'react-scroll';
+const TDResume = "https://drive.google.com/file/d/142GrCFvDDg5MUqjbxwsjhsQzWU2RtC4O/view?usp=sharing";
 
 const social = [
     {
@@ -51,7 +51,7 @@ const Footer = () => {
                     <ul id="footer-nav" aria-label="Main Navigation" role="navigation">
                         <li><button to="about" role="link" onClick={() => scrollToElement("about")}>About</button></li>
                         <li><a href="https://taylordunworth.myportfolio.com/">Work</a></li>
-                        <li><a href={Resume} target="_blank" rel="noreferrer">Resume</a></li>
+                        <li><a href={TDResume} target="_blank" rel="noreferrer">Resume</a></li>
                         <li><button to="community" role="link" onClick={() => scrollToElement("community")}>Community</button></li>
                         <li><a href="mailto:taydunworth@gmail.com">Contact</a></li>
                     </ul>
@@ -67,8 +67,8 @@ const Footer = () => {
                         </li>
                         ))}
                     </ul>
-                    <p>Created with Figma and React/Gatsby. <a href="https://github.com/taydunworth/taylor-dunworth-portfolio" target="_blank" rel="noreferrer">Check out my code!</a></p>
-                    <p>Copyright 2021, Taylor Dunworth</p>
+                    <p>Created with Figma and React/Gatsby. <a href="https://github.com/taydunworth/taylor-dunworth" target="_blank" rel="noreferrer">Check out my code!</a></p>
+                    <p>Copyright 2023, Taylor Dunworth</p>
                 </div>
             </Layout>
         </footer>

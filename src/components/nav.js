@@ -1,7 +1,8 @@
 import * as React from "react";
 import "../styles/styles.scss";
 import { scroller } from 'react-scroll';
-import Resume from "../images/Taylor-Dunworth-Resume.pdf";
+
+const TDResume = "https://drive.google.com/file/d/142GrCFvDDg5MUqjbxwsjhsQzWU2RtC4O/view?usp=sharing";
 
 const Nav = () => {
   const scrollToElement = (location) => {
@@ -20,7 +21,7 @@ const Nav = () => {
           <ul>
             <li><button to="about" role="link" onClick={() => scrollToElement("about")}>About</button></li>
             <li><a href="https://taylordunworth.myportfolio.com/">Work</a></li>
-            <li><a href={Resume} target="_blank" rel="noreferrer">Resume</a></li>
+            <li><a href={TDResume} target="_blank" rel="noreferrer">Resume</a></li>
             <li><button to="community" role="link" onClick={() => scrollToElement("community")}>Community</button></li>
             <li><a href="mailto:taydunworth@gmail.com">Contact</a></li>
           </ul>
