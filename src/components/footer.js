@@ -5,7 +5,7 @@ import "../styles/mobile.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCodepen, faGithubAlt, faLinkedinIn, faDribbble } from '@fortawesome/free-brands-svg-icons';
 import { scroller } from 'react-scroll';
-const TDResume = "https://drive.google.com/file/d/142GrCFvDDg5MUqjbxwsjhsQzWU2RtC4O/view?usp=sharing";
+const TDResume = "https://drive.google.com/file/d/1uJoTy3K124M5YpEs9DVpNFKjjzBzKMzZ/view?usp=sharing";
 
 const social = [
     {

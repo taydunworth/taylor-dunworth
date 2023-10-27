@@ -2,7 +2,7 @@ import * as React from "react";
 import "../styles/styles.scss";
 import { scroller } from 'react-scroll';
 
-const TDResume = "https://drive.google.com/file/d/142GrCFvDDg5MUqjbxwsjhsQzWU2RtC4O/view?usp=sharing";
+const TDResume = "https://drive.google.com/file/d/1uJoTy3K124M5YpEs9DVpNFKjjzBzKMzZ/view?usp=sharing";
 
 const Nav = () => {
   const scrollToElement = (location) => {

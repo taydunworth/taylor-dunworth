@@ -5,7 +5,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { scroller } from 'react-scroll';
 library.add(faBars, faTimes);
 
-const TDResume = "https://drive.google.com/file/d/142GrCFvDDg5MUqjbxwsjhsQzWU2RtC4O/view?usp=sharing";
+const TDResume = "https://drive.google.com/file/d/1uJoTy3K124M5YpEs9DVpNFKjjzBzKMzZ/view?usp=sharing";
 
 class MobileNav extends React.Component {
     constructor(props) {
